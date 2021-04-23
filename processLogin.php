@@ -14,10 +14,10 @@ if ($email!="" && $password!="") {
         header('location:home.php');
     } else {
         $_SESSION['errorMessage']="Compte introuvable Veuillez vérifier vos credenitals";
-        header('location:login.php');
+        header('location:index.php');
     }
 } else {
     $_SESSION['errorMessage']="Veuillez remplir les champs ";
-    header('location:login.php');
+    header('location:index.php');
 }
 ?>

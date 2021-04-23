@@ -14,7 +14,7 @@ include_once 'fragments/header.php';
             <?php include_once 'fragments/alert.php'; ?>
           <div class="card-body">
             <h5 class="card-title text-center">Bienvenue Veuillez entrer vos données</h5>
-    <form action="processLogin.php" method="post" >
+    <form action="processindex.php" method="post" >
         <div class="form-group">
             <label for="exampleInputEmail1">Adresse Email</label>
             <input
